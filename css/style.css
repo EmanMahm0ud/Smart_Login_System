@@ -1,0 +1,47 @@
+body, input
+{
+    background-color: #24353f !important;
+}
+
+.card, nav
+{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    background-color: #24353f !important;
+}
+
+.form-control
+{
+    color: #fff !important;
+}
+
+.form-control:focus
+{
+    box-shadow: none !important;
+    border-color: #17a2b8 !important;
+}
+
+.text-color, .btn-outline-info
+{
+    color: #17a2b8 !important;
+}
+
+.btn-outline-info
+{
+    border-color: #17a2b8 !important;
+}
+
+.btn-outline-info:hover
+{
+    color: #fff !important;
+    background-color: #17a2b8 !important;
+}
+
+a:hover
+{
+    text-decoration: underline !important;
+}
+
+::placeholder
+{
+    color: #aaa !important;
+}
