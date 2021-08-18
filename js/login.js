@@ -14,7 +14,7 @@ function login() {
     if (isEmpty()) {
         document.getElementById("loginMessage").innerHTML = "All fields are required";
     } else if (isFound()) {
-        location.replace('file:///F:/Training/A3-Validation//home.html');
+        location.replace('home.html');
     } else {
         document.getElementById("loginMessage").innerHTML = "Incorrect email or password";
     }
